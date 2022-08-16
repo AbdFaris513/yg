@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landing{
+    background-image: url(image/pexels-cottonbro-7149629.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: orange;
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    flex: 4;
+    font-size: large;
+    
+}
+nav{
+    flex: 1;
+    display: flex;
+}
+nav a{
+    flex: 1;
+    padding: 0px 10px;
+    /* border: 1px solid black; */
+}
+nav a:hover{
+    color: white;
+    font-size: 17px;
+}
+.maintext{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 70vh;
+    padding: 4em;
+    /* border: 1px solid green; */
+    background-color: rgba(0,0,0,0.5);
+}
+.tag1{
+    color: orange;
+    font-size: 2em;
+    font-weight: bold;
+}
+.tag2,.contact{
+    color: orange;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.maintext div{
+    margin-top: .65em;
+}
+.maintext button{
+    width: 27vh;
+    margin-top: 1.95em;
+    padding: .3em;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color:white;
+    color: orange;
+}
+.maintext button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.menu,.location{
+    background-color: black;
+    color: white;
+    
+}
+.headeloc,.headermenu{
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+th{
+    color: orange;
+    
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .4em;
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.Models{
+    grid-row: span 2;
+}
+.location h3{
+    color: orange;
+}
+.location{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.location div{
+    padding: 1em
+}
